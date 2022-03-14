@@ -45,13 +45,6 @@ class sampleDataInitializer {
     }
 }
 
-
-@Configuration
-@EnableReactiveMongoRepositories
-class MongoConfig {
-
-}
-
 interface ReservationRepository extends ReactiveCrudRepository<Reservation, String> {
 
 }
